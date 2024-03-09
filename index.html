@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>Mi primera pagina web</title>
+    </head>
+        <body>
+    <header>
+            <h1> Mi primera pagina</h1>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header,nav,main,footer{
+                width: 960px;
+                margin-left: 100px;
+                margin-right: 300px;
+                margin: 0 auto;
+                padding: 50px;
+            }
+            header{
+                /*width: 960px;*/
+                    height: 100px;
+                background-color: brown;
+                    color: beige;
+                text-align: center;
+            }
+            nav{
+                height: 30px;
+                background-color: sandybrown;
+                    color: brown;
+                padding: 20px 50px;
+            }
+            main{
+                height: 2400px;
+                background-color: antiquewhite;
+                color: brown;
+            }
+            footer{
+                height: 40px;
+                background-color: brown;
+                color: beige;
+                text-align: center;
+            }
+            section{
+                width: 800px;
+                height: auto;
+                background-color: darkgoldenrod;
+                color: bisque;
+                margin: 30px auto;
+                padding: 20px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:link{
+                color: crimson;
+            }
+            a:visited{
+                color:darkmagenta;
+            }
+            a:hover{
+                color: darkcyan;
+                text-decoration: underline;
+            }
+            main nav{
+                width: 500px;
+            }
+            ul,ol{
+                padding: 10px 30px;
+            }
+            ul{
+                list-style-type: square;
+            }
+            ol{
+                list-style-type: upper-roman;
+            }
+            section article ul{
+                list-style-image: url("../imagenes/lechuza.png")
+            }
+            nav ul{
+                text-align: center;
+                display: inline-block;
+            }
+             nav ul li{
+                display: inline-block;
+            }
+            nav ul li a{
+                background-color: transparent;
+                border: none;
+            }
+            nav ul li a: visited, nav ul li a:link{
+                background-color: transparent;
+                color: brown;
+                
+            }
+            nav ul li a: hover{
+                                background-color: transparent;
+                color: beige;
+            }
+            img{
+                width: 320px;
+                height: auto;
+                display: block;
+                margin:20px auto;
+                
+            }
+        </style>
+            </header>
+            <nav>
+            <!-- comentario1 aqui va el menu -->
+                <ul>
+                <li><a href="index.html">inicio</a></li>
+                    <li><a href="html/Galeria.html">galeria</a></li>
+                    <li><a href="html/practicas.html">Practicas</a></li>
+                    <li><a href="html/Contactos.html" target="_self">contactos</a></li>
+                </ul>
+            </nav>
+            <main>
+            <section>
+                <article>
+                <h2 id="titulo1">Quien soy yo</h2>
+                    <p>Lorem ipsum <a href="imagenes/mahogara.jpg" target="blank">Mojarrasss</a> dolor sit amet, consectetur adipiscing elit. Nam faucibus ultrices nibh, et elementum elit laoreet sed. Maecenas et dictum nisl. Vestibulum vitae<b>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ante.</b> ante orci. Clas <a href="http://www.buap.mx" target="blank">Benemerita universidad autonoma de puebla</a> aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean ultricies.</p>
+                    <img src="imagenes/pachirisu.jpg" alt="pachirisu">
+                    <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum nibh pellentesque, dictum erat sed, auctor tellus. Vestibulum quis rhoncus diam, a ultricies nisl. Integer vulputate leo id lectus dictum.</p>
+                    <ul>
+                    <li>yerimua</li>
+                        <li>teemo</li>
+                        <li>papu</li>
+                        <li>marsh</li>
+                    </ul>
+                    <p><mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in erat vel ligula fermentum rhoncus. Aliquam lacinia in est non.</mark></p>
+                </article>
+                </section>
+                <section>
+                <h2 id="titulo2">mi familia</h2>
+                    <p>Lorem ipsum dolor sit amet,  <a href="imagenes/ditto.jpg" target="blank">ditto</a> consectetur adipiscing elit. Vivamus in ullamcorper dui. Aliquam ligula leo, tristique at erat sed, hendrerit finibus risus. Integer blandit <i>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ante.</i>nunc eu neque viverra, a feugiat augue elementum. Quisque libero nibh, ornare in elementum ut, posuere in dui. Maecenas in gravida dolor, sed laoreet nisi. Nunc.</p>
+                    <ol>
+                    <li>poemonj</li>
+                        <li>cine</li>
+                        <li>papure</li>
+                        <li>jnuifisijsfdjif</li>
+                    </ol>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <mark><b>H<sub>2</sub>O</b></mark> in erat vel ligula fermentum rhoncus. <a href="https://ygoprodeck.com/card/soul-absorbing-bone-tower-5320" target="blank">deck</a> Aliquam lacinia in est non.</p>
+                    <img src="imagenes/huevo.jpg" alt="huevo">
+                </section>
+                <section>
+                <h2 id="titulo3">hobbies</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vivamus in ullamcorper dui. Aliquam ligula leo, tristique at erat sed, hendrerit finibus risus. Integer<del>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ante.</del> blandit nunc eu neque viverra, a feugiat augue elementum. Quisque libero nibh, ornare in elementum ut, posuere in dui. Maecenas in gravida do <a href="https://www.wikidex.net/wiki/Ferropalmas" target="blank">pokimon</a>lor, sed laoreet nisi. Nunc.</p>
+                    <img src="imagenes/lechonk.jpg" alt="lechonk">
+                    <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum nibh pellentesque, dictum erat sed, auctor tellus. Vestibulum quis rhoncus diam, a ultricies nisl. Integer vulputate leo id lectus dictum.</p>
+                    <ul>
+                    <li>poemonj</li>
+                        <li>cine</li>
+                        <li>papure</li>
+                        <li>jnuifisijsfdjif</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel interdum leo, sit <b><i>h<sup>2</sup>=c<sup>2</sup>+c<sup>2</sup></i>donde c son catetos y h la hipotenusa</b> amet gravida est. <a href="Pdf/Oppenheimer.pdf" download>opp</a> Vestibulum justo velit, varius a nunc in, consectetur malesuada ligula. Ut ac tellus sit.</p>
+                </section>
+                <nav>
+                <a href="#titulo1">Quien soy yo</a>
+                    <a href="#titulo2">mi familia</a>
+                    <a href="#titulo3">hobbies</a>
+                </nav>
+            </main>
+            <footer>
+            <h6>elaborado por jiu</h6>
+            </footer>
+    </body>
+</html>
